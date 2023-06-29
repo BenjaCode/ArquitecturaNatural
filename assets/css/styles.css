@@ -1,0 +1,8 @@
+/* -- Custom Properties (Variables) -- */
+:root{
+    --colorBlanco: #FFF;
+    --colorGris: #343A40;
+    --colorNegro: #111;
+
+    --fuentePrincipal: 'Raleway', sans-serif;
+}
