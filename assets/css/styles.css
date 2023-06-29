@@ -66,3 +66,17 @@ img{
     width: 90%;
     margin: 0 auto;
 }
+
+/* -- Boton -- */
+.btn{
+    color: var(--colorGris);
+    background-color: var(--colorBlanco);
+    border: 1px solid var(--colorGris);
+    padding: .5rem 2rem;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+.btn:hover{
+    background-color: var(--colorGris);
+    color: var(--colorBlanco);
+}
