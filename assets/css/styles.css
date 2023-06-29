@@ -59,3 +59,10 @@ img{
 .mt-5{
     margin-top: 5rem;
 }
+
+/* -- Contenedor -- */
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
