@@ -80,3 +80,128 @@ img{
     background-color: var(--colorGris);
     color: var(--colorBlanco);
 }
+
+/* -- Header -- */
+.header{
+    min-height: 60rem;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+}
+
+.header a{
+    color: var(--colorBlanco);
+    font-size: 2rem;
+}
+
+.contenido-header{
+    height: 56rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--colorBlanco);
+}
+
+.nombre-sitio{
+    font-weight: 300;
+    text-align: center;
+    font-size: 3rem;
+}
+@media (min-width: 768px) {
+    .nombre-sitio{
+        font-size: 5rem;
+    }
+}
+.nombre-sitio span{
+    font-weight: 900;
+}
+
+@media (min-width: 1024px) {
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 1024px) {
+    .contacto{
+        align-items: flex-end;
+    }
+}
+
+.telefono{
+    display: flex;
+}
+.telefono::before{
+    content: "";
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../img/telefono.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 1rem;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+@media (min-width: 1024px) {
+    .navegacion{
+        flex-direction: row;
+        margin-top: 0;
+    }
+}
+
+.navegacion a{
+    padding: .5rem;
+    transition: background-color 300ms;
+    width: 100%;
+    text-align: center;
+}
+.navegacion a:hover{
+    background-color: rgba(255,255,255,.5);
+    color: var(--colorNegro);
+}
+@media (min-width: 1024px) {
+    .navegacion a{
+        padding: 1rem 2rem;
+    }
+}
+
+.slogan{
+    text-align: center;
+}
+@media (min-width: 1024px) {
+    .slogan{
+        text-align: right;
+    }
+}
+
+.titulo-slogan{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+@media (min-width: 1024px) {
+    .titulo-slogan{
+        font-size: 5rem;
+    }
+}
+
+.descripcion-slogan{
+    margin: 0;
+    line-height: 1;
+}
