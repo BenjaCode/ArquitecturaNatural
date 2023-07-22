@@ -339,3 +339,26 @@ main h2,
 .galeria .imagen:nth-child(6){
     grid-row: 2/4;
 }
+
+/* -- Footer -- */
+.footer{
+    height: 50rem;
+    background-image: url(../img/footer_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: var(--colorBlanco);
+}
+
+.footer a{
+    color: var(--colorBlanco);
+    font-size: 2rem;
+}
+
+.copy{
+    text-align: center;
+    margin: 0;
+}
