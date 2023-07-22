@@ -222,7 +222,6 @@ img{
 
 .contenido-nosotros{
     background-color: var(--colorBlanco);
-    padding: 5rem;
 }
 @media (min-width: 1024px) {
     .contenido-nosotros{
